@@ -1,0 +1,77 @@
+@font-face {
+    src: url(./fonts/OCR\ A\ Extended\ Regular.ttf);
+    font-family: "OCR";
+  }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+  body {
+    font-family: "OCR", monospace;
+    background-image: linear-gradient(225deg, #9c2b2c 0%, #ac898b 50%, #576877 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: whitesmoke;
+  }
+
+.card {
+    background: green;
+    width: 550px;
+    height: 350px;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 50px;
+} 
+
+h1 {
+    text-align: right;
+    font-weight: normal;
+    font-family: monospace;
+}
+ 
+.icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.contactless-icon {
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.footer > img {
+    width: 20%;
+}
+
+.footer-text {
+font-weight: bold;
+}
