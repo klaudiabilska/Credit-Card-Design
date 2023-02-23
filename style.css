@@ -23,6 +23,7 @@
     color: rgba(245, 245, 245, 0.856);
   }
 
+
 .card {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -37,6 +38,7 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    margin: 30px;
 }
 
 img {
@@ -84,15 +86,6 @@ font-weight: bold;
 color: white;
 }
 
-/* card back */
-
-.card-front{
-    display: none;
-}
-
-/* .card-back {
-    display: none;
-} */
 
 .card-back {
     position: relative;
